@@ -8,10 +8,13 @@
 import SwiftUI
 
 @main
-struct HW17_AndreyOalaApp: App {
+struct AppleMusicSwiftUIApp: App {
+        init() {
+            UITabBar.appearance().backgroundColor = .systemGray6
+        }
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            TabBarView()
         }
     }
 }
