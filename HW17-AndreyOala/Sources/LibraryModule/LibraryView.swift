@@ -22,6 +22,7 @@ struct LibraryView: View {
                 Spacer()
                     .frame(height: 70)
             }
+            
             .foregroundColor(.white)
             .navigationTitle("Медиатека")
             .navigationBarItems(
