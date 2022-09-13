@@ -8,6 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		5506176E28C0DF6900C10BDB /* RadioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5506176D28C0DF6900C10BDB /* RadioView.swift */; };
+		55924F7D28D08667003ABBAA /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55924F7C28D08667003ABBAA /* ModelData.swift */; };
+		55924F8128D0870D003ABBAA /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55924F8028D0870D003ABBAA /* SearchView.swift */; };
+		55924F8328D0871F003ABBAA /* CategorySearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55924F8228D0871F003ABBAA /* CategorySearchView.swift */; };
+		55924F8528D0872D003ABBAA /* AlbumSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55924F8428D0872D003ABBAA /* AlbumSectionView.swift */; };
+		55924F8728D08746003ABBAA /* CategoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55924F8628D08746003ABBAA /* CategoryModel.swift */; };
+		55924F8928D08754003ABBAA /* AlbumDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55924F8828D08754003ABBAA /* AlbumDataModel.swift */; };
+		55924F8D28D087D4003ABBAA /* CategorySearchDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55924F8C28D087D4003ABBAA /* CategorySearchDetailView.swift */; };
+		55924F8F28D087E5003ABBAA /* FavoritePlayList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55924F8E28D087E5003ABBAA /* FavoritePlayList.swift */; };
+		55924F9128D087F4003ABBAA /* FavoritePlayListSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55924F9028D087F4003ABBAA /* FavoritePlayListSection.swift */; };
+		55924F9328D08801003ABBAA /* AlbumCategoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55924F9228D08801003ABBAA /* AlbumCategoryModel.swift */; };
+		55924F9628D0884E003ABBAA /* HorizontalSectionTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55924F9528D0884E003ABBAA /* HorizontalSectionTitleView.swift */; };
+		55924F9828D08862003ABBAA /* HorizontalListCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55924F9728D08862003ABBAA /* HorizontalListCellView.swift */; };
+		55924F9A28D0887A003ABBAA /* HorizontalListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55924F9928D0887A003ABBAA /* HorizontalListView.swift */; };
+		55924F9C28D08893003ABBAA /* HorizontalSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55924F9B28D08893003ABBAA /* HorizontalSectionView.swift */; };
+		55924F9E28D088A4003ABBAA /* HorizontalCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55924F9D28D088A4003ABBAA /* HorizontalCellView.swift */; };
 		55AFA6D128BF5BC000125DA1 /* HW17_AndreyOalaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55AFA6D028BF5BC000125DA1 /* HW17_AndreyOalaApp.swift */; };
 		55AFA6D528BF5BC000125DA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55AFA6D428BF5BC000125DA1 /* Assets.xcassets */; };
 		55AFA6D828BF5BC000125DA1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55AFA6D728BF5BC000125DA1 /* Preview Assets.xcassets */; };
@@ -25,6 +40,21 @@
 
 /* Begin PBXFileReference section */
 		5506176D28C0DF6900C10BDB /* RadioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioView.swift; sourceTree = "<group>"; };
+		55924F7C28D08667003ABBAA /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		55924F8028D0870D003ABBAA /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		55924F8228D0871F003ABBAA /* CategorySearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategorySearchView.swift; sourceTree = "<group>"; };
+		55924F8428D0872D003ABBAA /* AlbumSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumSectionView.swift; sourceTree = "<group>"; };
+		55924F8628D08746003ABBAA /* CategoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryModel.swift; sourceTree = "<group>"; };
+		55924F8828D08754003ABBAA /* AlbumDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumDataModel.swift; sourceTree = "<group>"; };
+		55924F8C28D087D4003ABBAA /* CategorySearchDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategorySearchDetailView.swift; sourceTree = "<group>"; };
+		55924F8E28D087E5003ABBAA /* FavoritePlayList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritePlayList.swift; sourceTree = "<group>"; };
+		55924F9028D087F4003ABBAA /* FavoritePlayListSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritePlayListSection.swift; sourceTree = "<group>"; };
+		55924F9228D08801003ABBAA /* AlbumCategoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumCategoryModel.swift; sourceTree = "<group>"; };
+		55924F9528D0884E003ABBAA /* HorizontalSectionTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalSectionTitleView.swift; sourceTree = "<group>"; };
+		55924F9728D08862003ABBAA /* HorizontalListCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalListCellView.swift; sourceTree = "<group>"; };
+		55924F9928D0887A003ABBAA /* HorizontalListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalListView.swift; sourceTree = "<group>"; };
+		55924F9B28D08893003ABBAA /* HorizontalSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalSectionView.swift; sourceTree = "<group>"; };
+		55924F9D28D088A4003ABBAA /* HorizontalCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalCellView.swift; sourceTree = "<group>"; };
 		55AFA6CD28BF5BC000125DA1 /* HW17-AndreyOala.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HW17-AndreyOala.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		55AFA6D028BF5BC000125DA1 /* HW17_AndreyOalaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HW17_AndreyOalaApp.swift; sourceTree = "<group>"; };
 		55AFA6D428BF5BC000125DA1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -62,6 +92,66 @@
 				55B77CBF28C60F1800F86CB5 /* StationSectionView.swift */,
 			);
 			path = RadioModule;
+			sourceTree = "<group>";
+		};
+		55924F7B28D0865B003ABBAA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				55924F7C28D08667003ABBAA /* ModelData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		55924F7E28D086FA003ABBAA /* SearchModule */ = {
+			isa = PBXGroup;
+			children = (
+				55924F7F28D08703003ABBAA /* Model */,
+				55924F8028D0870D003ABBAA /* SearchView.swift */,
+				55924F8228D0871F003ABBAA /* CategorySearchView.swift */,
+				55924F8428D0872D003ABBAA /* AlbumSectionView.swift */,
+			);
+			path = SearchModule;
+			sourceTree = "<group>";
+		};
+		55924F7F28D08703003ABBAA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				55924F8628D08746003ABBAA /* CategoryModel.swift */,
+				55924F8828D08754003ABBAA /* AlbumDataModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		55924F8A28D087B4003ABBAA /* SearchDetailView */ = {
+			isa = PBXGroup;
+			children = (
+				55924F9428D08839003ABBAA /* List */,
+				55924F8B28D087C4003ABBAA /* Model */,
+				55924F8C28D087D4003ABBAA /* CategorySearchDetailView.swift */,
+				55924F8E28D087E5003ABBAA /* FavoritePlayList.swift */,
+				55924F9028D087F4003ABBAA /* FavoritePlayListSection.swift */,
+			);
+			path = SearchDetailView;
+			sourceTree = "<group>";
+		};
+		55924F8B28D087C4003ABBAA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				55924F9228D08801003ABBAA /* AlbumCategoryModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		55924F9428D08839003ABBAA /* List */ = {
+			isa = PBXGroup;
+			children = (
+				55924F9528D0884E003ABBAA /* HorizontalSectionTitleView.swift */,
+				55924F9728D08862003ABBAA /* HorizontalListCellView.swift */,
+				55924F9928D0887A003ABBAA /* HorizontalListView.swift */,
+				55924F9B28D08893003ABBAA /* HorizontalSectionView.swift */,
+				55924F9D28D088A4003ABBAA /* HorizontalCellView.swift */,
+			);
+			path = List;
 			sourceTree = "<group>";
 		};
 		55AFA6C428BF5BC000125DA1 = {
@@ -110,6 +200,9 @@
 		55AFA6DF28BF5DF600125DA1 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				55924F8A28D087B4003ABBAA /* SearchDetailView */,
+				55924F7E28D086FA003ABBAA /* SearchModule */,
+				55924F7B28D0865B003ABBAA /* Model */,
 				55B77CA928C60DD400F86CB5 /* MainModule */,
 				55B77CAC28C60E0400F86CB5 /* MediaModule */,
 				55AFA6E028BF5E0B00125DA1 /* Application */,
@@ -263,18 +356,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55924F9828D08862003ABBAA /* HorizontalListCellView.swift in Sources */,
 				55B77CB728C60E9600F86CB5 /* ListView.swift in Sources */,
+				55924F9C28D08893003ABBAA /* HorizontalSectionView.swift in Sources */,
 				55B77CAB28C60DE200F86CB5 /* MainView.swift in Sources */,
+				55924F8528D0872D003ABBAA /* AlbumSectionView.swift in Sources */,
+				55924F8F28D087E5003ABBAA /* FavoritePlayList.swift in Sources */,
+				55924F9128D087F4003ABBAA /* FavoritePlayListSection.swift in Sources */,
 				55B77CB528C60E8700F86CB5 /* ListModel.swift in Sources */,
+				55924F9E28D088A4003ABBAA /* HorizontalCellView.swift in Sources */,
+				55924F8728D08746003ABBAA /* CategoryModel.swift in Sources */,
+				55924F9328D08801003ABBAA /* AlbumCategoryModel.swift in Sources */,
+				55924F7D28D08667003ABBAA /* ModelData.swift in Sources */,
 				55B77CB128C60E6000F86CB5 /* PlayerView.swift in Sources */,
 				55B77CB928C60EA000F86CB5 /* MediaRowView.swift in Sources */,
 				55AFA6D128BF5BC000125DA1 /* HW17_AndreyOalaApp.swift in Sources */,
+				55924F8328D0871F003ABBAA /* CategorySearchView.swift in Sources */,
+				55924F9A28D0887A003ABBAA /* HorizontalListView.swift in Sources */,
 				55B77CBE28C60F0F00F86CB5 /* StationView.swift in Sources */,
 				5506176E28C0DF6900C10BDB /* RadioView.swift in Sources */,
 				55B77CBC28C60F0600F86CB5 /* RadioSectionView.swift in Sources */,
+				55924F8128D0870D003ABBAA /* SearchView.swift in Sources */,
 				55B77CC028C60F1800F86CB5 /* StationSectionView.swift in Sources */,
 				55B77CAF28C60E4A00F86CB5 /* LibraryView.swift in Sources */,
+				55924F8D28D087D4003ABBAA /* CategorySearchDetailView.swift in Sources */,
 				55B77CC328C60FC800F86CB5 /* RadioModel.swift in Sources */,
+				55924F8928D08754003ABBAA /* AlbumDataModel.swift in Sources */,
+				55924F9628D0884E003ABBAA /* HorizontalSectionTitleView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
