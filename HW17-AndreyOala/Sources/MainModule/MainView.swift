@@ -1,10 +1,3 @@
-//
-//  MainView.swift
-//  HW17-AndreyOala
-//
-//  Created by Andrey Oala on 05.09.2022.
-//
-
 import SwiftUI
 
 struct  MainView: View {
@@ -37,10 +30,16 @@ struct  MainView: View {
                         .resizable()
                         .aspectRatio(contentMode: .fit)
                 }
+        
+                MainSearchUIKitView()
+                .tabItem {
+                    Text("Поиск UIKit")
+                    Image(systemName:"plus.magnifyingglass")
+                        .resizable()
+                        .aspectRatio(contentMode: .fit)
+                }
             }
             .accentColor(.red)
-            PlayerView()
-                .offset(y: -33)
         }
     }
 }
@@ -50,4 +49,3 @@ struct TabView_Previews: PreviewProvider {
         MainView()
     }
 }
-

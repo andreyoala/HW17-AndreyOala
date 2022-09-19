@@ -7,6 +7,8 @@
 
 import SwiftUI
 
+import SwiftUI
+
 struct CategorySearchDetailView: View {
     
         @EnvironmentObject var modelData: ModelData
@@ -17,9 +19,13 @@ struct CategorySearchDetailView: View {
                     GeometryReader { geometry in
                         ScrollView(.vertical, showsIndicators: true) {
                             FavoritePlayList(geometry: geometry)
-                            HorizontalSectionView(title: "Популярные плейлисты", hasTwoRows: true, geometry: geometry)
-                            HorizontalListView(geometry: geometry, title: "Лучшие новые треки")
-                            HorizontalSectionView(title: "Пространственное аудио", geometry: geometry)
+                            HorizontalSectionView(title: "Популярные плейлисты",
+                                                  hasTwoRows: true,
+                                                  geometry: geometry)
+                            HorizontalListView(geometry: geometry,
+                                               title: "Лучшие новые треки")
+                            HorizontalSectionView(title: "Пространственное аудио",
+                                                  geometry: geometry)
                         }
                     }
                 }
